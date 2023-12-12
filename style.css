@@ -170,6 +170,10 @@ h2 {
   }
 }
 
+.btn-primary > a {
+  color: white;
+}
+
 .btn-outline {
   background-color: #304c7a;
   color: white;
@@ -186,6 +190,10 @@ h2 {
     color: white;
     transition: 300ms ease-in-out;
   }
+}
+
+.btn-outline > a {
+  color: white;
 }
 
 /* ABOUT SECTION */
