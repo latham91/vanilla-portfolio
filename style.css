@@ -107,13 +107,13 @@ nav {
   margin: 0 auto;
   max-width: 1460px;
   position: relative;
-  z-index: 10;
 }
 
 .hero-content > h1,
 h2 {
   font-size: 70px;
   font-weight: 600;
+  z-index: 10;
 }
 
 .hero-subtitle {
@@ -382,10 +382,11 @@ form {
   background-color: #c72138;
   border-radius: 50%;
   filter: blur(70px);
-  right: 200px;
+  right: 300px;
   top: 100px;
   animation: animateBlob 7s linear infinite;
   animation-delay: 4s;
+  z-index: -1;
 }
 
 .blob_two {
@@ -395,10 +396,11 @@ form {
   background-color: #304c7a;
   border-radius: 50%;
   filter: blur(70px);
-  right: 50px;
+  right: 100px;
   top: 50px;
   animation: animateBlob 7s linear infinite;
   animation-delay: 2s;
+  z-index: -1;
 }
 
 .blob_three {
@@ -408,10 +410,11 @@ form {
   background-color: #e9e347;
   border-radius: 50%;
   filter: blur(70px);
-  right: 100px;
+  right: 200px;
   top: 300px;
   animation: animateBlob 7s linear infinite;
   animation-delay: 6s;
+  z-index: -1;
 }
 
 @keyframes animateBlob {
