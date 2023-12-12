@@ -425,6 +425,10 @@ form {
   z-index: -1;
 }
 
+.hidden {
+  display: none;
+}
+
 @keyframes animateBlob {
   0% {
     transform: scale(1);
@@ -441,5 +445,33 @@ form {
   100% {
     transform: scale(1);
     translate: 0px 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-links {
+    display: none;
+  }
+
+  .blob_one {
+    display: none;
+  }
+
+  .blob_two {
+    display: none;
+  }
+
+  .blob_three {
+    display: none;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .about-right {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 }
